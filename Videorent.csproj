@@ -1,0 +1,288 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{8A0BF376-A5E9-4A40-AC0F-7B6B2418B5A7}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Videorent</RootNamespace>
+    <AssemblyName>Videorent</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework">
+      <HintPath>packages\EntityFramework.6.2.0\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer">
+      <HintPath>packages\EntityFramework.6.2.0\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Data.Tools.Contracts.11">
+      <HintPath>packages\Microsoft.DACFx3.1.0.1\lib\Microsoft.Data.Tools.Contracts.11.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Data.Tools.Schema.Sql">
+      <HintPath>packages\Microsoft.DACFx3.1.0.1\lib\Microsoft.Data.Tools.Schema.Sql.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Data.Tools.Schema.Tasks.Sql.11">
+      <HintPath>packages\Microsoft.DACFx3.1.0.1\lib\Microsoft.Data.Tools.Schema.Tasks.Sql.11.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Data.Tools.Schema.Utilities.Sql.11">
+      <HintPath>packages\Microsoft.DACFx3.1.0.1\lib\Microsoft.Data.Tools.Schema.Utilities.Sql.11.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Data.Tools.Utilities">
+      <HintPath>packages\Microsoft.DACFx3.1.0.1\lib\Microsoft.Data.Tools.Utilities.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.SqlServer.Dac">
+      <HintPath>packages\Microsoft.DACFx3.1.0.1\lib\Microsoft.SqlServer.Dac.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AllForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AllForm.Designer.cs">
+      <DependentUpon>AllForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Autoresation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Autoresation.Designer.cs">
+      <DependentUpon>Autoresation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Class.cs" />
+    <Compile Include="ClientsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ClientsForm.Designer.cs">
+      <DependentUpon>ClientsForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="contex.cs" />
+    <Compile Include="DiscForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DiscForm.Designer.cs">
+      <DependentUpon>DiscForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FimForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FimForm.Designer.cs">
+      <DependentUpon>FimForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="IDForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="IDForm.Designer.cs">
+      <DependentUpon>IDForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="IDOForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="IDOForm.Designer.cs">
+      <DependentUpon>IDOForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="InputClient.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InputClient.Designer.cs">
+      <DependentUpon>InputClient.cs</DependentUpon>
+    </Compile>
+    <Compile Include="InputDisc.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InputDisc.Designer.cs">
+      <DependentUpon>InputDisc.cs</DependentUpon>
+    </Compile>
+    <Compile Include="InputFilm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InputFilm.Designer.cs">
+      <DependentUpon>InputFilm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="InputOrder.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InputOrder.Designer.cs">
+      <DependentUpon>InputOrder.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201904050622565_First.cs" />
+    <Compile Include="Migrations\201904050622565_First.Designer.cs">
+      <DependentUpon>201904050622565_First.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201904100511565_Second.cs" />
+    <Compile Include="Migrations\201904100511565_Second.Designer.cs">
+      <DependentUpon>201904100511565_Second.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201905240549121_Georgy.cs" />
+    <Compile Include="Migrations\201905240549121_Georgy.Designer.cs">
+      <DependentUpon>201905240549121_Georgy.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\Configuration.cs" />
+    <Compile Include="OrderForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OrderForm.Designer.cs">
+      <DependentUpon>OrderForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="AllForm.resx">
+      <DependentUpon>AllForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Autoresation.resx">
+      <DependentUpon>Autoresation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ClientsForm.resx">
+      <DependentUpon>ClientsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DiscForm.resx">
+      <DependentUpon>DiscForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FimForm.resx">
+      <DependentUpon>FimForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="IDForm.resx">
+      <DependentUpon>IDForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="IDOForm.resx">
+      <DependentUpon>IDOForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InputClient.resx">
+      <DependentUpon>InputClient.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InputDisc.resx">
+      <DependentUpon>InputDisc.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InputFilm.resx">
+      <DependentUpon>InputFilm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InputOrder.resx">
+      <DependentUpon>InputOrder.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201904050622565_First.resx">
+      <DependentUpon>201904050622565_First.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201904100511565_Second.resx">
+      <DependentUpon>201904100511565_Second.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201905240549121_Georgy.resx">
+      <DependentUpon>201905240549121_Georgy.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OrderForm.resx">
+      <DependentUpon>OrderForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.5">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.5 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Microsoft.SqlServer.Dac.xml" />
+    <None Include="Resources\delete.ico" />
+    <None Include="Resources\pen_write_edit.ico" />
+    <None Include="Resources\plus_add_green.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Properties\DataSources\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
