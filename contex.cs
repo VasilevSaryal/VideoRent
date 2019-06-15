@@ -12,7 +12,7 @@ namespace Videorent
     {
 
         public VideoContext()
-            : base("Connect")
+            : base("Laptop")
         {
         }
 
@@ -20,7 +20,10 @@ namespace Videorent
         public DbSet<Film> Films { get; set; }
         public DbSet<Disc> Discs { get; set; }
         public DbSet<Client> Clients { get; set; }
-        public DbSet<Order> Orders { get; set; }        
+        public DbSet<Order> Orders { get; set; }
+        public DbSet<DiscFilms> DiscFilms { get; set; }
+        public DbSet<FilmType> FilmTypes { get; set; }
+        public DbSet<FilmGenres> FimsGenres { get; set; }
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {

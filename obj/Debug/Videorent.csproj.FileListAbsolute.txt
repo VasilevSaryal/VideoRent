@@ -231,3 +231,149 @@ E:\VideorentE5\obj\Debug\Videorent.Properties.Resources.resources
 E:\VideorentE5\obj\Debug\Videorent.csproj.GenerateResource.Cache
 E:\VideorentE5\obj\Debug\Videorent.AllForm.resources
 E:\VideorentE5\obj\Debug\Videorent.Migrations.Georgy.resources
+E:\VideorentE5\obj\Debug\Videorent.InpitDisc.resources
+E:\VideorentE5\obj\Debug\Videorent.InputFilmForm.resources
+C:\Users\Student\Desktop\VideorentE5\bin\Debug\Videorent.exe.config
+C:\Users\Student\Desktop\VideorentE5\obj\Debug\Videorent.exe
+C:\Users\Student\Desktop\VideorentE5\obj\Debug\Videorent.pdb
+C:\Users\Student\Desktop\VideorentE5\bin\Debug\Videorent.exe
+C:\Users\Student\Desktop\VideorentE5\bin\Debug\Videorent.pdb
+C:\Users\Student\Desktop\VideorentE5\bin\Debug\EntityFramework.dll
+C:\Users\Student\Desktop\VideorentE5\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Student\Desktop\VideorentE5\bin\Debug\Microsoft.Data.Tools.Contracts.11.dll
+C:\Users\Student\Desktop\VideorentE5\bin\Debug\Microsoft.Data.Tools.Schema.Sql.dll
+C:\Users\Student\Desktop\VideorentE5\bin\Debug\Microsoft.Data.Tools.Schema.Tasks.Sql.11.dll
+C:\Users\Student\Desktop\VideorentE5\bin\Debug\Microsoft.Data.Tools.Schema.Utilities.Sql.11.dll
+C:\Users\Student\Desktop\VideorentE5\bin\Debug\Microsoft.Data.Tools.Utilities.dll
+C:\Users\Student\Desktop\VideorentE5\bin\Debug\Microsoft.SqlServer.Dac.dll
+C:\Users\Student\Desktop\VideorentE5\bin\Debug\EntityFramework.xml
+C:\Users\Student\Desktop\VideorentE5\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Student\Desktop\VideorentE5\obj\Debug\Videorent.csprojResolveAssemblyReference.cache
+C:\Users\Student\Desktop\VideorentE5\obj\Debug\Videorent.AllForm.resources
+C:\Users\Student\Desktop\VideorentE5\obj\Debug\Videorent.Autoresation.resources
+C:\Users\Student\Desktop\VideorentE5\obj\Debug\Videorent.ClientsForm.resources
+C:\Users\Student\Desktop\VideorentE5\obj\Debug\Videorent.DiscForm.resources
+C:\Users\Student\Desktop\VideorentE5\obj\Debug\Videorent.FimForm.resources
+C:\Users\Student\Desktop\VideorentE5\obj\Debug\Videorent.Form1.resources
+C:\Users\Student\Desktop\VideorentE5\obj\Debug\Videorent.IDForm.resources
+C:\Users\Student\Desktop\VideorentE5\obj\Debug\Videorent.IDOForm.resources
+C:\Users\Student\Desktop\VideorentE5\obj\Debug\Videorent.InpitDisc.resources
+C:\Users\Student\Desktop\VideorentE5\obj\Debug\Videorent.InputClient.resources
+C:\Users\Student\Desktop\VideorentE5\obj\Debug\Videorent.InputDisc.resources
+C:\Users\Student\Desktop\VideorentE5\obj\Debug\Videorent.InputFilm.resources
+C:\Users\Student\Desktop\VideorentE5\obj\Debug\Videorent.InputFilmForm.resources
+C:\Users\Student\Desktop\VideorentE5\obj\Debug\Videorent.InputOrder.resources
+C:\Users\Student\Desktop\VideorentE5\obj\Debug\Videorent.Migrations.First.resources
+C:\Users\Student\Desktop\VideorentE5\obj\Debug\Videorent.Migrations.Second.resources
+C:\Users\Student\Desktop\VideorentE5\obj\Debug\Videorent.Migrations.Georgy.resources
+C:\Users\Student\Desktop\VideorentE5\obj\Debug\Videorent.OrderForm.resources
+C:\Users\Student\Desktop\VideorentE5\obj\Debug\Videorent.Properties.Resources.resources
+C:\Users\Student\Desktop\VideorentE5\obj\Debug\Videorent.csproj.GenerateResource.Cache
+C:\Users\Student\Desktop\VideorentE5\obj\Debug\Videorent.Migrations.Five.resources
+C:\Users\Student\Desktop\VideorentE5\obj\Debug\Videorent.Migrations.Six.resources
+C:\Users\Student\Desktop\VideorentE5\obj\Debug\Videorent.Migrations.Seven.resources
+C:\Users\Student\Desktop\VideorentE5\obj\Debug\Videorent.InputJenre.resources
+C:\Users\Student\Desktop\VideorentE5\obj\Debug\Videorent.Migrations.Eight.resources
+C:\Users\Fat_Tony\Desktop\VideorentE6\bin\Debug\Videorent.exe.config
+C:\Users\Fat_Tony\Desktop\VideorentE6\obj\Debug\Videorent.exe
+C:\Users\Fat_Tony\Desktop\VideorentE6\obj\Debug\Videorent.pdb
+C:\Users\Fat_Tony\Desktop\VideorentE6\bin\Debug\Videorent.exe
+C:\Users\Fat_Tony\Desktop\VideorentE6\bin\Debug\Videorent.pdb
+C:\Users\Fat_Tony\Desktop\VideorentE6\bin\Debug\EntityFramework.dll
+C:\Users\Fat_Tony\Desktop\VideorentE6\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Fat_Tony\Desktop\VideorentE6\bin\Debug\Microsoft.Data.Tools.Contracts.11.dll
+C:\Users\Fat_Tony\Desktop\VideorentE6\bin\Debug\Microsoft.Data.Tools.Schema.Sql.dll
+C:\Users\Fat_Tony\Desktop\VideorentE6\bin\Debug\Microsoft.Data.Tools.Schema.Tasks.Sql.11.dll
+C:\Users\Fat_Tony\Desktop\VideorentE6\bin\Debug\Microsoft.Data.Tools.Schema.Utilities.Sql.11.dll
+C:\Users\Fat_Tony\Desktop\VideorentE6\bin\Debug\Microsoft.Data.Tools.Utilities.dll
+C:\Users\Fat_Tony\Desktop\VideorentE6\bin\Debug\Microsoft.SqlServer.Dac.dll
+C:\Users\Fat_Tony\Desktop\VideorentE6\bin\Debug\EntityFramework.xml
+C:\Users\Fat_Tony\Desktop\VideorentE6\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Fat_Tony\Desktop\VideorentE6\obj\Debug\Videorent.csprojResolveAssemblyReference.cache
+C:\Users\Fat_Tony\Desktop\VideorentE6\obj\Debug\Videorent.AllForm.resources
+C:\Users\Fat_Tony\Desktop\VideorentE6\obj\Debug\Videorent.Autoresation.resources
+C:\Users\Fat_Tony\Desktop\VideorentE6\obj\Debug\Videorent.ClientsForm.resources
+C:\Users\Fat_Tony\Desktop\VideorentE6\obj\Debug\Videorent.DiscForm.resources
+C:\Users\Fat_Tony\Desktop\VideorentE6\obj\Debug\Videorent.FimForm.resources
+C:\Users\Fat_Tony\Desktop\VideorentE6\obj\Debug\Videorent.Form1.resources
+C:\Users\Fat_Tony\Desktop\VideorentE6\obj\Debug\Videorent.IDForm.resources
+C:\Users\Fat_Tony\Desktop\VideorentE6\obj\Debug\Videorent.IDOForm.resources
+C:\Users\Fat_Tony\Desktop\VideorentE6\obj\Debug\Videorent.InpitDisc.resources
+C:\Users\Fat_Tony\Desktop\VideorentE6\obj\Debug\Videorent.InputClient.resources
+C:\Users\Fat_Tony\Desktop\VideorentE6\obj\Debug\Videorent.InputDisc.resources
+C:\Users\Fat_Tony\Desktop\VideorentE6\obj\Debug\Videorent.InputFilm.resources
+C:\Users\Fat_Tony\Desktop\VideorentE6\obj\Debug\Videorent.InputFilmForm.resources
+C:\Users\Fat_Tony\Desktop\VideorentE6\obj\Debug\Videorent.InputJenre.resources
+C:\Users\Fat_Tony\Desktop\VideorentE6\obj\Debug\Videorent.InputOrder.resources
+C:\Users\Fat_Tony\Desktop\VideorentE6\obj\Debug\Videorent.OrderForm.resources
+C:\Users\Fat_Tony\Desktop\VideorentE6\obj\Debug\Videorent.Properties.Resources.resources
+C:\Users\Fat_Tony\Desktop\VideorentE6\obj\Debug\Videorent.csproj.GenerateResource.Cache
+C:\Users\Fat_Tony\Desktop\VideorentE6\obj\Debug\Videorent.SearchForm.resources
+C:\Users\Fat_Tony\Desktop\VideorentE6\obj\Debug\Videorent.Migrations.First.resources
+C:\Users\Fat_Tony\Desktop\VideorentE6\obj\Debug\Videorent.Migrations.Tsuna.resources
+C:\Users\Fat_Tony\Desktop\VideorentE6\obj\Debug\Videorent.Migrations.SecondBreath.resources
+C:\Users\Fat_Tony\Desktop\VideorentE6\obj\Debug\Videorent.Migrations.ThirdBreath.resources
+C:\Users\Fat_Tony\Desktop\VideorentE6\obj\Debug\Videorent.OrderTimeForm.resources
+C:\Users\Fat_Tony\Desktop\Новая папка\VideorentE6\bin\Debug\Videorent.exe.config
+C:\Users\Fat_Tony\Desktop\Новая папка\VideorentE6\obj\Debug\Videorent.exe
+C:\Users\Fat_Tony\Desktop\Новая папка\VideorentE6\obj\Debug\Videorent.pdb
+C:\Users\Fat_Tony\Desktop\Новая папка\VideorentE6\obj\Debug\Videorent.csprojResolveAssemblyReference.cache
+C:\Users\Fat_Tony\Desktop\Новая папка\VideorentE6\obj\Debug\Videorent.AllForm.resources
+C:\Users\Fat_Tony\Desktop\Новая папка\VideorentE6\obj\Debug\Videorent.Autoresation.resources
+C:\Users\Fat_Tony\Desktop\Новая папка\VideorentE6\obj\Debug\Videorent.InpitDisc.resources
+C:\Users\Fat_Tony\Desktop\Новая папка\VideorentE6\obj\Debug\Videorent.InputClient.resources
+C:\Users\Fat_Tony\Desktop\Новая папка\VideorentE6\obj\Debug\Videorent.InputDisc.resources
+C:\Users\Fat_Tony\Desktop\Новая папка\VideorentE6\obj\Debug\Videorent.InputFilm.resources
+C:\Users\Fat_Tony\Desktop\Новая папка\VideorentE6\obj\Debug\Videorent.InputFilmForm.resources
+C:\Users\Fat_Tony\Desktop\Новая папка\VideorentE6\obj\Debug\Videorent.InputJenre.resources
+C:\Users\Fat_Tony\Desktop\Новая папка\VideorentE6\obj\Debug\Videorent.InputOrder.resources
+C:\Users\Fat_Tony\Desktop\Новая папка\VideorentE6\obj\Debug\Videorent.Migrations.First.resources
+C:\Users\Fat_Tony\Desktop\Новая папка\VideorentE6\obj\Debug\Videorent.Migrations.Tsuna.resources
+C:\Users\Fat_Tony\Desktop\Новая папка\VideorentE6\obj\Debug\Videorent.Migrations.SecondBreath.resources
+C:\Users\Fat_Tony\Desktop\Новая папка\VideorentE6\obj\Debug\Videorent.Migrations.ThirdBreath.resources
+C:\Users\Fat_Tony\Desktop\Новая папка\VideorentE6\obj\Debug\Videorent.OrderTimeForm.resources
+C:\Users\Fat_Tony\Desktop\Новая папка\VideorentE6\obj\Debug\Videorent.Properties.Resources.resources
+C:\Users\Fat_Tony\Desktop\Новая папка\VideorentE6\obj\Debug\Videorent.SearchForm.resources
+C:\Users\Fat_Tony\Desktop\Новая папка\VideorentE6\obj\Debug\Videorent.csproj.GenerateResource.Cache
+C:\Users\Fat_Tony\Desktop\Новая папка\VideorentE6\bin\Debug\Videorent.exe
+C:\Users\Fat_Tony\Desktop\Новая папка\VideorentE6\bin\Debug\Videorent.pdb
+C:\Users\Fat_Tony\Desktop\Новая папка\VideorentE6\bin\Debug\EntityFramework.dll
+C:\Users\Fat_Tony\Desktop\Новая папка\VideorentE6\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Fat_Tony\Desktop\Новая папка\VideorentE6\bin\Debug\Microsoft.Data.Tools.Contracts.11.dll
+C:\Users\Fat_Tony\Desktop\Новая папка\VideorentE6\bin\Debug\Microsoft.Data.Tools.Schema.Sql.dll
+C:\Users\Fat_Tony\Desktop\Новая папка\VideorentE6\bin\Debug\Microsoft.Data.Tools.Schema.Tasks.Sql.11.dll
+C:\Users\Fat_Tony\Desktop\Новая папка\VideorentE6\bin\Debug\Microsoft.Data.Tools.Schema.Utilities.Sql.11.dll
+C:\Users\Fat_Tony\Desktop\Новая папка\VideorentE6\bin\Debug\Microsoft.Data.Tools.Utilities.dll
+C:\Users\Fat_Tony\Desktop\Новая папка\VideorentE6\bin\Debug\Microsoft.SqlServer.Dac.dll
+C:\Users\Fat_Tony\Desktop\Новая папка\VideorentE6\bin\Debug\EntityFramework.xml
+C:\Users\Fat_Tony\Desktop\Новая папка\VideorentE6\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\асer\Desktop\VideorentE7\bin\Debug\Videorent.exe.config
+C:\Users\асer\Desktop\VideorentE7\obj\Debug\Videorent.exe
+C:\Users\асer\Desktop\VideorentE7\obj\Debug\Videorent.pdb
+C:\Users\асer\Desktop\VideorentE7\bin\Debug\Videorent.exe
+C:\Users\асer\Desktop\VideorentE7\bin\Debug\Videorent.pdb
+C:\Users\асer\Desktop\VideorentE7\bin\Debug\EntityFramework.dll
+C:\Users\асer\Desktop\VideorentE7\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\асer\Desktop\VideorentE7\bin\Debug\Microsoft.Data.Tools.Contracts.11.dll
+C:\Users\асer\Desktop\VideorentE7\bin\Debug\Microsoft.Data.Tools.Schema.Sql.dll
+C:\Users\асer\Desktop\VideorentE7\bin\Debug\Microsoft.Data.Tools.Schema.Tasks.Sql.11.dll
+C:\Users\асer\Desktop\VideorentE7\bin\Debug\Microsoft.Data.Tools.Schema.Utilities.Sql.11.dll
+C:\Users\асer\Desktop\VideorentE7\bin\Debug\Microsoft.Data.Tools.Utilities.dll
+C:\Users\асer\Desktop\VideorentE7\bin\Debug\Microsoft.SqlServer.Dac.dll
+C:\Users\асer\Desktop\VideorentE7\bin\Debug\EntityFramework.xml
+C:\Users\асer\Desktop\VideorentE7\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\асer\Desktop\VideorentE7\obj\Debug\Videorent.csprojResolveAssemblyReference.cache
+C:\Users\асer\Desktop\VideorentE7\obj\Debug\Videorent.AllForm.resources
+C:\Users\асer\Desktop\VideorentE7\obj\Debug\Videorent.Autoresation.resources
+C:\Users\асer\Desktop\VideorentE7\obj\Debug\Videorent.InpitDisc.resources
+C:\Users\асer\Desktop\VideorentE7\obj\Debug\Videorent.InputClient.resources
+C:\Users\асer\Desktop\VideorentE7\obj\Debug\Videorent.InputDisc.resources
+C:\Users\асer\Desktop\VideorentE7\obj\Debug\Videorent.InputFilm.resources
+C:\Users\асer\Desktop\VideorentE7\obj\Debug\Videorent.InputFilmForm.resources
+C:\Users\асer\Desktop\VideorentE7\obj\Debug\Videorent.InputJenre.resources
+C:\Users\асer\Desktop\VideorentE7\obj\Debug\Videorent.InputOrder.resources
+C:\Users\асer\Desktop\VideorentE7\obj\Debug\Videorent.OrderTimeForm.resources
+C:\Users\асer\Desktop\VideorentE7\obj\Debug\Videorent.Properties.Resources.resources
+C:\Users\асer\Desktop\VideorentE7\obj\Debug\Videorent.SearchForm.resources
+C:\Users\асer\Desktop\VideorentE7\obj\Debug\Videorent.csproj.GenerateResource.Cache
+C:\Users\асer\Desktop\VideorentE7\obj\Debug\Videorent.Migrations.First.resources

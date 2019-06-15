@@ -13,16 +13,45 @@ namespace Videorent
             [Key]
             public int GenreID { get; set; }
             public string Name { get; set; }
+            public override string ToString()
+            {
+                return Name;
+            }
+        }
+        public class FilmType
+        {
+            [Key]
+            public int TypeID { get; set; }
+            public string Type { get; set; }
+            public override string ToString()
+            {
+                return Type;
+            }
+        }
+        public class FilmGenres
+        {
+            [Key]
+            public int FilmGenresID { get; set; }
+            public int FilmID { get; set; }
+            [ForeignKey("FilmID")]
+            public Film Film { get; set; }
+            public int GenreID { get; set; }
+            [ForeignKey("GenreID")]
+            public Genre Genre { get; set; }
         }
         public class Film
         {
             [Key]
             public int FilmID { get; set; }
             public string Name { get; set; }
-            public int GenreId { get; set; }
+            public int[] GenreId  { get; set; }
             [ForeignKey("GenreId")]
-            public virtual Genre Genre { get; set; }
+            public virtual Genre[] Genre { get; set; }
+            public int TypeID { get; set; }
+            [ForeignKey("TypeID")]
+            public virtual FilmType Type { get; set; }
             public int Year { get; set; }
+            public string Image { get; set; }
             public override string ToString()
             {
                 return Name;
@@ -32,17 +61,17 @@ namespace Videorent
         {
             [Key]
             public int DiscID { get; set; }
+            public string Name { get; set; }
             public bool IsAvailable { get; set; }
-            public Film[] Films { get; set; }
-            public Order OrderID { get; set; }
-            public string FilmName()
+            public Film Films { get; set; }
+            public override string ToString()
             {
-                string names = "";
-                foreach(Film film in Films) {
-                    names += film.ToString() + "  ";
-                }
-                return names;
+                return Name;
             }
+            /*public int OrderID { get; set; }
+            [ForeignKey("OrderID")]
+            public Order Order { get; set; }*/
+            
             
         }
         public class DiscFilms 
@@ -50,8 +79,10 @@ namespace Videorent
             [Key]
             public int DiscFilmId { get; set; }
             public int DiscID { get; set; }
+            [ForeignKey("DiscID")]
             public Disc Disc { get; set; }
             public int FilmID { get; set; }
+            [ForeignKey("FilmID")]
             public Film Film { get; set; }
         }
         public class Client
@@ -66,8 +97,9 @@ namespace Videorent
             public bool InBlacklist { get; set; }
             public override string ToString()
             {
-                return ClientID.ToString() + ". " + Surname + " " + Name + " " + Patronymic;
+                return Surname + " " + Name + " " + Patronymic;
             }
+            //public Order Orders { get; set; }
         }
         public class Order
         {
@@ -76,8 +108,13 @@ namespace Videorent
             public string DepositeType { get; set; }
             public DateTime StartAt { get; set; }
             public DateTime ExpiredAt { get; set; }
+            public int ClientID { get; set; }
+            [ForeignKey("ClientID")]
             public Client Client { get; set; }
             public bool IsClosed { get; set; }
             public int MoneyAmount { get; set; }
+            public int DiscID { get; set; }
+            [ForeignKey("DiscID")]
+            public Disc Disc { get; set; }
         }
 }

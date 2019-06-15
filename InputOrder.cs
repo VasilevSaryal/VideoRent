@@ -16,27 +16,34 @@ namespace Videorent
         DateTime StartAt;
         DateTime ExpiredAt;
         Client Client = new Client();
+        Order order;
+        Disc Disc = new Disc();
         bool IsClosed, Edit=false;
         int MoneyAmount;
         string DeposteType;
         VideoContext contex;
-        public InputOrder()
+        public InputOrder(Order order)
         {
             this.contex = new VideoContext();
             InitializeComponent();
+            this.order = order;
+            
         }
 
         private void button3_Click(object sender, EventArgs e)
         {
-            ClientsForm Form = new ClientsForm();
-            Form.Show();
+            SearchForm form = new SearchForm(true, false);
+            form.ShowDialog();
+            if (form.GetClient() != null)
+            {
+                Client = form.GetClient();
+                textBox1.Text = Client.Surname + " " + Client.Name + " " + Client.Patronymic;
+            }
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
             Close();
-            OrderForm FRM = new OrderForm();
-            FRM.Show();
         }
         private class Item
         {
@@ -56,11 +63,25 @@ namespace Videorent
         {
             comboBox2.Items.Add(new Item("Документы", 1));
             comboBox2.Items.Add(new Item("Денежный эквивалент", 2));
-            var cl = contex.Clients;
-            foreach (Client c in cl)
+            if (order != null)
             {
-                comboBox1.Items.Add(new Item(c.ClientID + ". " + c.Surname + " " + c.Name + " " + c.Patronymic, c.ClientID));
+                Client = order.Client;
+                Disc = order.Disc;
+                comboBox2.Text = order.DepositeType;
+                label6.Visible = false;
+                button5.Visible = false;
+                dateTimePicker1.Visible = true;
+                dateTimePicker2.Visible = true;
+                label3.Visible = true;
+                label4.Visible = true;
+                dateTimePicker1.Value = order.StartAt;
+                dateTimePicker2.Value = order.ExpiredAt;
+                textBox1.Text = order.Client.Surname + " " + order.Client.Name + " " + order.Client.Patronymic;
+                textBox2.Text = order.MoneyAmount.ToString();
+                checkBox1.Checked = order.IsClosed;
+                textBox3.Text = order.Disc.Name;
             }
+  
             /*if (Edit)
             {
                 comboBox2.Text = ;
@@ -71,37 +92,45 @@ namespace Videorent
 
         private void button1_Click(object sender, EventArgs e)
         {
-            VideoContext contex = new VideoContext();
-            OrderForm FRM = new OrderForm();
-            int CiD = Convert.ToInt32(comboBox1.Text[0]);
-            var cl = contex.Clients.Where(c => c.ClientID == CiD);
-            Client client = new Client();
-            foreach (Client c in cl)
+            if (textBox1.Text != "" && textBox2.Text != "" && textBox3.Text != ""&&comboBox2.Text!="")
             {
-                client = c;
+                VideoContext contex = new VideoContext();
+                if (dateTimePicker1.Visible == false)
+                {
+                    dateTimePicker1.Visible = true;
+                    dateTimePicker2.Visible = true;
+                    DateTime today = DateTime.Now;
+                    DateTime answer = today.AddDays(7);
+                    dateTimePicker2.Value = answer;
+                }
+                Order inOrder = new Order
+                {
+                    DepositeType = comboBox2.Text,
+                    MoneyAmount = Convert.ToInt32(textBox2.Text),
+                    StartAt = Convert.ToDateTime(dateTimePicker1.Text),
+                    ExpiredAt = Convert.ToDateTime(dateTimePicker2.Text),
+                    IsClosed = checkBox1.Checked,
+                    ClientID = Client.ClientID,
+                    DiscID = Disc.DiscID
+                };
+                if (order != null)
+                {
+                    Order or = contex.Orders.Where(o => o.OrderID == order.OrderID).FirstOrDefault();
+                    or.DepositeType = comboBox2.Text;
+                    or.MoneyAmount = Convert.ToInt32(textBox2.Text);
+                    or.StartAt = Convert.ToDateTime(dateTimePicker1.Text);
+                    or.ExpiredAt = Convert.ToDateTime(dateTimePicker2.Text);
+                    or.IsClosed = checkBox1.Checked;
+                    or.ClientID = Client.ClientID;
+                    or.DiscID = Disc.DiscID;
+                }
+                else
+                    contex.Orders.Add(inOrder);
+                contex.SaveChanges();
+                Close();
             }
-            Order order = new Order
-            {
-                OrderID = 0,
-                DepositeType = comboBox2.Text,
-                MoneyAmount = Convert.ToInt32(textBox2.Text),
-                StartAt = Convert.ToDateTime(dateTimePicker1.Text),
-                ExpiredAt = Convert.ToDateTime(dateTimePicker2.Text),
-                IsClosed = false,
-                Client = client/*{ 
-                    Age =client.Age,
-                    ClientID = client.ClientID,
-                    InBlacklist = client.InBlacklist,
-                    Phone = client.Phone,
-                    Name = client.Name,
-                    Patronymic = client.Patronymic,
-                    Surname = client.Surname
-                }*/
-            };
-            contex.Orders.Add(order);
-            contex.SaveChanges();
-            Close();
-            FRM.Show();
+            else MessageBox.Show("Заполните все поля");
+      
         }
 
         private void button5_Click(object sender, EventArgs e)
@@ -138,6 +167,52 @@ namespace Videorent
             this.IsClosed = IsClosed;
             this.MoneyAmount = MoneyAmount;
             Edit = true;
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            InputClient form = new InputClient(null);
+            form.ShowDialog();
+            if (form.GetClient() != null)
+            {
+                Client = form.GetClient();
+                textBox1.Text = Client.Surname + " " + Client.Name + " " + Client.Patronymic;
+            }
+        }
+
+        private void button7_Click(object sender, EventArgs e)
+        {
+            SearchForm form = new SearchForm(true, true);
+            form.ShowDialog();
+            if (form.GetDisc() != null)
+            {
+                Disc = form.GetDisc();
+                textBox3.Text = Disc.Name;
+            }
+        }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            InputDisc form = new InputDisc(null);
+            form.ShowDialog();
+            if (form.GetDisc() != null)
+            {
+                Disc = form.GetDisc();
+                textBox3.Text = Disc.Name;
+            }
+        }
+
+        private void textBox2_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (!char.IsControl(e.KeyChar) && !char.IsDigit(e.KeyChar) && (e.KeyChar != '.'))
+            {
+                e.Handled = true;
+            }
+
+            if ((e.KeyChar == '.') && ((sender as TextBox).Text.IndexOf('.') > -1))
+            {
+                e.Handled = true;
+            }
         }
     }
 }

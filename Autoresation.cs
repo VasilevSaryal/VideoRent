@@ -21,21 +21,14 @@ namespace Videorent
         private void button1_Click(object sender, EventArgs e)
         {
             //check credentials
-            if (textBox1.Text == name && textBox2.Text == passw)
-            {
-                this.Hide();
-                Form1 form = new Form1();
-                form.Show();
-            }
-            else Application.Exit();
+            if (textBox1.Text != name || textBox2.Text != passw)
+                MessageBox.Show("Неверный логин или пароль");
+            else Close();
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
-            this.Hide();
-            Form1 form = new Form1();
-            form.Show();
-            //Application.Exit();
+            Application.Exit();
         }
 
         private void Autoresation_Load(object sender, EventArgs e)

@@ -50,7 +50,7 @@
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(73, 39);
             this.button1.TabIndex = 0;
-            this.button1.Text = "Ok";
+            this.button1.Text = "Ок";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
@@ -61,7 +61,7 @@
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(97, 39);
             this.button2.TabIndex = 1;
-            this.button2.Text = "Cancel";
+            this.button2.Text = "Отмена";
             this.button2.UseVisualStyleBackColor = true;
             this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
@@ -122,7 +122,6 @@
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(255, 23);
             this.textBox1.TabIndex = 7;
-            this.textBox1.Text = "Анастасия";
             // 
             // textBox2
             // 
@@ -131,7 +130,6 @@
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(255, 23);
             this.textBox2.TabIndex = 8;
-            this.textBox2.Text = "Габышева";
             // 
             // textBox3
             // 
@@ -140,7 +138,6 @@
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(255, 23);
             this.textBox3.TabIndex = 9;
-            this.textBox3.Text = "Тимофеевна";
             // 
             // textBox4
             // 
@@ -149,7 +146,7 @@
             this.textBox4.Name = "textBox4";
             this.textBox4.Size = new System.Drawing.Size(255, 23);
             this.textBox4.TabIndex = 10;
-            this.textBox4.Text = "22";
+            this.textBox4.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBox4_KeyPress);
             // 
             // textBox5
             // 
@@ -158,7 +155,7 @@
             this.textBox5.Name = "textBox5";
             this.textBox5.Size = new System.Drawing.Size(255, 23);
             this.textBox5.TabIndex = 11;
-            this.textBox5.Text = "123";
+            this.textBox5.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBox5_KeyPress);
             // 
             // checkBox1
             // 

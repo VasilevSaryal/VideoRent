@@ -97,42 +97,12 @@
       <DependentUpon>Autoresation.cs</DependentUpon>
     </Compile>
     <Compile Include="Class.cs" />
-    <Compile Include="ClientsForm.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="ClientsForm.Designer.cs">
-      <DependentUpon>ClientsForm.cs</DependentUpon>
-    </Compile>
     <Compile Include="contex.cs" />
-    <Compile Include="DiscForm.cs">
+    <Compile Include="InpitDisc.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="DiscForm.Designer.cs">
-      <DependentUpon>DiscForm.cs</DependentUpon>
-    </Compile>
-    <Compile Include="FimForm.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="FimForm.Designer.cs">
-      <DependentUpon>FimForm.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Form1.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
-    </Compile>
-    <Compile Include="IDForm.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="IDForm.Designer.cs">
-      <DependentUpon>IDForm.cs</DependentUpon>
-    </Compile>
-    <Compile Include="IDOForm.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="IDOForm.Designer.cs">
-      <DependentUpon>IDOForm.cs</DependentUpon>
+    <Compile Include="InpitDisc.Designer.cs">
+      <DependentUpon>InpitDisc.cs</DependentUpon>
     </Compile>
     <Compile Include="InputClient.cs">
       <SubType>Form</SubType>
@@ -152,56 +122,51 @@
     <Compile Include="InputFilm.Designer.cs">
       <DependentUpon>InputFilm.cs</DependentUpon>
     </Compile>
+    <Compile Include="InputFilmForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InputFilmForm.Designer.cs">
+      <DependentUpon>InputFilmForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="InputJenre.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InputJenre.Designer.cs">
+      <DependentUpon>InputJenre.cs</DependentUpon>
+    </Compile>
     <Compile Include="InputOrder.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="InputOrder.Designer.cs">
       <DependentUpon>InputOrder.cs</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\201904050622565_First.cs" />
-    <Compile Include="Migrations\201904050622565_First.Designer.cs">
-      <DependentUpon>201904050622565_First.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201904100511565_Second.cs" />
-    <Compile Include="Migrations\201904100511565_Second.Designer.cs">
-      <DependentUpon>201904100511565_Second.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201905240549121_Georgy.cs" />
-    <Compile Include="Migrations\201905240549121_Georgy.Designer.cs">
-      <DependentUpon>201905240549121_Georgy.cs</DependentUpon>
+    <Compile Include="Migrations\201906151223573_First.cs" />
+    <Compile Include="Migrations\201906151223573_First.Designer.cs">
+      <DependentUpon>201906151223573_First.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
-    <Compile Include="OrderForm.cs">
+    <Compile Include="OrderTimeForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="OrderForm.Designer.cs">
-      <DependentUpon>OrderForm.cs</DependentUpon>
+    <Compile Include="OrderTimeForm.Designer.cs">
+      <DependentUpon>OrderTimeForm.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SearchForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SearchForm.Designer.cs">
+      <DependentUpon>SearchForm.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="AllForm.resx">
       <DependentUpon>AllForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Autoresation.resx">
       <DependentUpon>Autoresation.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="ClientsForm.resx">
-      <DependentUpon>ClientsForm.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="DiscForm.resx">
-      <DependentUpon>DiscForm.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="FimForm.resx">
-      <DependentUpon>FimForm.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="IDForm.resx">
-      <DependentUpon>IDForm.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="IDOForm.resx">
-      <DependentUpon>IDOForm.cs</DependentUpon>
+    <EmbeddedResource Include="InpitDisc.resx">
+      <DependentUpon>InpitDisc.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="InputClient.resx">
       <DependentUpon>InputClient.cs</DependentUpon>
@@ -212,20 +177,20 @@
     <EmbeddedResource Include="InputFilm.resx">
       <DependentUpon>InputFilm.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="InputFilmForm.resx">
+      <DependentUpon>InputFilmForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InputJenre.resx">
+      <DependentUpon>InputJenre.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="InputOrder.resx">
       <DependentUpon>InputOrder.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201904050622565_First.resx">
-      <DependentUpon>201904050622565_First.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\201906151223573_First.resx">
+      <DependentUpon>201906151223573_First.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201904100511565_Second.resx">
-      <DependentUpon>201904100511565_Second.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201905240549121_Georgy.resx">
-      <DependentUpon>201905240549121_Georgy.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="OrderForm.resx">
-      <DependentUpon>OrderForm.cs</DependentUpon>
+    <EmbeddedResource Include="OrderTimeForm.resx">
+      <DependentUpon>OrderTimeForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -237,6 +202,9 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="SearchForm.resx">
+      <DependentUpon>SearchForm.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
